@@ -3,12 +3,12 @@ import * as path from 'path'
 import template from './template'
 
 const filePath = (variant: string) => {
-  // Evitar sobrescribir el archivo del tema personalizado.
+  // Avoid overwriting the custom theme file.
   return path.join(process.cwd(), `/ayu-${variant}.generated.json`)
 }
 
-// Solo generar el tema mirage sin borde
-(() => {
+// Only generate the mirage variant without border
+;(() => {
   const variant = 'mirage'
   const nonBordered = JSON.stringify(template(variant as any, false), null, '\t')
   fs.writeFileSync(filePath(variant), nonBordered)
