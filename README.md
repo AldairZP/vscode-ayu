@@ -1,4 +1,4 @@
-![vscode-ayu](assets/header.png)
+![vscode-ayu](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/header.png)
 
 > Source from: https://github.com/dempfi/ayu
 
@@ -18,16 +18,16 @@ If you want to setup File Icon, then go to `Preferences > File Icon Theme > Ayu`
 ## Screenshots
 
 #### Light
-![Light](assets/light.png)
-![Light Bordered](assets/light-bordered.png)
+![Light](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/light.png)
+![Light Bordered](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/light-bordered.png)
 
 #### Mirage
-![Mirage](assets/mirage.png)
-![Mirage Bordered](assets/mirage-bordered.png)
+![Mirage](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/mirage.png)
+![Mirage Bordered](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/mirage-bordered.png)
 
 #### Dark
-![Dark](assets/dark.png)
-![Dark Bordered](assets/dark-bordered.png)
+![Dark](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/dark.png)
+![Dark Bordered](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/dark-bordered.png)
 
 ## Development
 
