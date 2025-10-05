@@ -1,5 +1,3 @@
-[ayu-mirage](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/header.png)
-
 > Fork based on: https://github.com/dempfi/ayu
 
 Theme focused on the Ayu Mirage variant for comfortable, all-day work.
@@ -20,7 +18,7 @@ Then go to `Preferences > Color Theme > Ayu Mirage`.
 
 #### Mirage
 
-![Mirage](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/mirage.png)
+![Mirage](https://github.com/AldairZP/vscode-ayu/raw/master/assets/mirage.png)
 
 ## Development
 
