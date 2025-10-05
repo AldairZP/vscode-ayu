@@ -1,7 +1,7 @@
 {
 	"name": "ayu-mirage",
 	"displayName": "Ayu Mirage",
-	"description": "Tema Ayu Mirage para VS Code (fork adaptado).",
+	"description": "Ayu Mirage theme for VS Code (adapted fork).",
 	"version": "0.0.1",
 	"publisher": "aldairzp",
 	"license": "MIT",
