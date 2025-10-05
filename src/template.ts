@@ -50,7 +50,7 @@ export default (variant: SchemeName, bordered: boolean) => {
 
       // BUTTON CONTROL
       'button.background': scheme.common.accent.hex(),
-      'button.foreground': scheme.common.accentFg.hex(),
+      'button.foreground': scheme.ui.bg.hex(),
       'button.hoverBackground': scheme.common.accent.darken(0.1).hex(),
       'button.secondaryBackground': scheme.ui.fg.alpha(0.2).hex(),
       'button.secondaryForeground': scheme.editor.fg.hex(),
@@ -127,7 +127,7 @@ export default (variant: SchemeName, bordered: boolean) => {
       'activityBar.activeBorder': scheme.common.accent.hex(),
       'activityBarBadge.background': scheme.common.accent.hex(),
       'activityBarBadge.foreground':
-        variant === 'light' ? scheme.ui.bg.hex() : scheme.common.accentFg.hex(),
+        variant === 'light' ? scheme.ui.bg.hex() : scheme.ui.bg.hex(),
 
       // SIDE BAR
       'sideBar.background': scheme.ui.bg.hex(),
@@ -304,7 +304,7 @@ export default (variant: SchemeName, bordered: boolean) => {
       'statusBarItem.prominentBackground': scheme.ui.line.hex(),
       'statusBarItem.prominentHoverBackground': '#00000030',
       'statusBarItem.remoteBackground': scheme.common.accent.hex(),
-      'statusBarItem.remoteForeground': scheme.common.accentFg.hex(),
+      'statusBarItem.remoteForeground': scheme.ui.bg.hex(),
 
       // TITLE BAR
       'titleBar.activeBackground': scheme.ui.bg.hex(),
@@ -334,7 +334,7 @@ export default (variant: SchemeName, bordered: boolean) => {
       // 'notificationLink.foreground': '?',
 
       // EXTENSIONS
-      'extensionButton.prominentForeground': scheme.common.accentFg.hex(),
+      'extensionButton.prominentForeground': scheme.ui.bg.hex(),
       'extensionButton.prominentBackground': scheme.common.accent.hex(),
       'extensionButton.prominentHoverBackground': scheme.common.accent.darken(0.1).hex(),
 

@@ -1,42 +1,42 @@
-![vscode-ayu](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/header.png)
+![ayu-mirage](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/header.png)
 
-> Source from: https://github.com/dempfi/ayu
+> Fork basado en: https://github.com/dempfi/ayu
 
-A simple theme with bright colors and comes in three versions — *dark*, *light* and *mirage* for all day long comfortable work.
+Tema enfocado en la variante Ayu Mirage para un trabajo cómodo durante todo el día.
 
-> Note that this isn't a theme maintained by the original [Ayu theme](https://github.com/dempfi/ayu) author so please report issues related to this theme here.
+> Nota: Este no es un tema mantenido por el autor original de [Ayu](https://github.com/dempfi/ayu). Reporta issues en este repositorio.
 
-## Install
+## Instalación
 
-```shell
-ext install ayu
-```
+- Desde VSIX (recomendado si no está publicado en el Marketplace):
+  1. Instala dependencias: `npm install`
+  2. Genera el tema y el paquete: `npm run build && npm run package`
+  3. En VS Code: Extensions > … > Install from VSIX y elige el archivo generado.
+  
+- Desde Marketplace (cuando esté publicado): `code --install-extension aldairzp.ayu-mirage`
 
-Then go to `Preferences > Color Theme > Ayu Light(or Ayu Dark, or Ayu Mirage)`.
-If you want to setup File Icon, then go to `Preferences > File Icon Theme > Ayu`.
+Luego, ve a `Preferences > Color Theme > Ayu Mirage`.
 
-## Screenshots
-
-#### Light
-![Light](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/light.png)
-![Light Bordered](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/light-bordered.png)
+## Capturas
 
 #### Mirage
 ![Mirage](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/mirage.png)
 ![Mirage Bordered](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/mirage-bordered.png)
 
+#### Light
+![Light](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/light.png)
+![Light Bordered](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/light-bordered.png)
+
 #### Dark
 ![Dark](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/dark.png)
 ![Dark Bordered](https://github.com/ayu-theme/vscode-ayu/raw/HEAD/assets/dark-bordered.png)
 
-## Development
+## Desarrollo
 
-Install dependencies
-```shell
-npm install
-```
+Instalar dependencias:
 
-Update themes and build VSIX package
-```shell
-npm run build && npm run package
-```
+- `npm install`
+
+Actualizar tema y generar paquete VSIX:
+
+- `npm run build && npm run package`

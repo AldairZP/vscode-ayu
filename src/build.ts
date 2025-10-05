@@ -1,15 +1,15 @@
 import * as fs from 'fs'
 import * as path from 'path'
-import template, { SchemeName } from './template'
+import template from './template'
 
-const filePath = (variant: string, bordered: boolean) =>
-  path.join(process.cwd(), `/ayu-${variant}${bordered ? '-bordered' : ''}.json`)
+const filePath = (variant: string) => {
+  return path.join(process.cwd(), `/ayu-${variant}.json`)
+}
 
-;['light', 'dark', 'mirage'].map((variant: SchemeName) => {
-  const bordered = JSON.stringify(template(variant, true), null, '\t')
-  const nonBordered = JSON.stringify(template(variant, false), null, '\t')
-
-  fs.writeFileSync(filePath(variant, true), bordered)
-  fs.writeFileSync(filePath(variant, false), nonBordered)
+// Solo generar el tema mirage sin borde
+(() => {
+  const variant = 'mirage'
+  const nonBordered = JSON.stringify(template(variant as any, false), null, '\t')
+  fs.writeFileSync(filePath(variant), nonBordered)
   console.log(`Updated ${variant}`)
-})
+})()
